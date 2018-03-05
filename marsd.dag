@@ -1,0 +1,3 @@
+SUBDAG EXTERNAL workers workers.dag
+SCRIPT POST workers marsdOneIter.sh ___nf___
+RETRY workers 1000
